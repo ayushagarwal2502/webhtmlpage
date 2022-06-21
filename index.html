@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<HTML>
+<Head>
+    <title> details as form</title>
+    </Head>
+    <Body>
+
+        <form>
+            <div>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Second name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+         </div>
+         <div>
+            <input type="radio"  name="gender" value="Male">
+            <label for="gender">Male</label>
+            <input type="radio"  name="gender" value="Female">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="Others">
+            <label for="gender">Other</label><br><br>
+          </div>
+            
+          <div>
+          <input id="imageUpload" type="file" 
+                 name="profile_photo" placeholder="Photo" required="" capture><br>
+              </div>
+             <div>
+                 <label for="story">Tell us your story:</label><br>
+                 <textarea id="story" name="story" rows="5" cols="33"></textarea><br><br>
+            </div>
+                 <select>
+                    <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antartica">Antarctica</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                <option value="India" >India</option>
+                </select><br><br>
+                <div>
+                <button type="submit" formaction="#">Submit</button> 
+                <button type="Reset" formaction="#">Reset</button>
+                </div>
+        </form>
+        </Body>
+        </HTML>
